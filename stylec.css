@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+	padding: 0;
+    background-color: rgb(21, 16, 34);
+	color: rgb(255, 255, 255);
+    font-family: "Lucida Console", "Monaco";
+}
+
+header{
+    position: fixed;
+    display: flex;
+    background-color: rgb(45, 47, 174);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 10;
+}
+
+h1{
+    font-size: 24px;
+}
+
+.left-text{
+    flex-basis: 48%;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.right-text{
+    flex-basis: 48%;
+    text-align: right;
+    padding-right: 2%;
+}
+
+
+#container {
+    background-color: rgb(41, 40, 97);
+    width: 80%;
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#container h1{
+    text-align: center;
+}
+
+#back-button{
+    position: absolute;
+    top: 350px;
+    border-radius: 20px;
+    width: 25%;
+    left: 37%;
+    height: 100px;
+}
+
+#back-button button{
+    background-color: rgb(41, 40, 97);
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    transition-duration: 0.4s;
+}
+
+#back-button button:hover{
+    background-color: rgb(45, 47, 174);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+#back-button a{
+    color: rgb(255, 255, 255);
+    font-family: "Lucida Console", "Monaco";
+    font-size: 48px;
+    text-decoration: none;
+}
